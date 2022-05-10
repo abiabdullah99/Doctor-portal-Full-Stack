@@ -1,0 +1,10 @@
+.appoinment {
+  background: url(../../../assets/images/appointment.png);
+  height: 500px;
+}
+@media screen and (max-width: 688px) {
+  .appoinment {
+    height: 100%;
+    padding: 10px 0px;
+  }
+}
