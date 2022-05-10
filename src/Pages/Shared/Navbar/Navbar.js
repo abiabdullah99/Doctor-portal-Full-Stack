@@ -5,22 +5,34 @@ const Navbar = () => {
   const menuItems = (
     <>
       <li>
-      <Link to='/' className="text-xl font-mono">Home</Link>
+        <Link to="/" className="text-xl font-mono">
+          Home
+        </Link>
       </li>
       <li>
-      <Link to='/reviews' className="text-xl font-mono">Reviews</Link>
+        <Link to="/reviews" className="text-xl font-mono">
+          Reviews
+        </Link>
       </li>
       <li>
-      <Link to='/about' className="text-xl font-mono">About</Link>
+        <Link to="/about" className="text-xl font-mono">
+          About
+        </Link>
       </li>
       <li>
-      <Link to='/appointment' className="text-xl font-mono">Appointment</Link>
+        <Link to="/appointment" className="text-xl font-mono">
+          Appointment
+        </Link>
       </li>
       <li>
-      <Link to='/contact' className="text-xl font-mono">Contact</Link>
+        <Link to="/contact" className="text-xl font-mono">
+          Contact
+        </Link>
       </li>
       <li>
-      <Link to='/login' className="text-xl font-mono">Login</Link>
+        <Link to="/login" className="text-xl font-mono">
+          Login
+        </Link>
       </li>
     </>
   );
@@ -51,7 +63,9 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <h1 className="btn btn-ghost normal-case text-2xl font-mono ml-10 md:ml-0">Doctor Portal</h1>
+        <h1 className="btn btn-ghost normal-case text-2xl font-mono ml-10 md:ml-0">
+          Doctor Portal
+        </h1>
       </div>
       <div className="navbar-center hidden lg:flex ml-60">
         <ul className="menu menu-horizontal p-0">{menuItems}</ul>
