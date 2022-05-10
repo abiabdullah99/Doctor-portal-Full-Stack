@@ -4,7 +4,7 @@ import marker from '../../../assets/icons/marker.svg'
 import phone from '../../../assets/icons/phone.svg'
 const Info = () => {
   return (
-    <div className="md:flex px-28 md:mt-40 text-white">
+    <div className="md:flex px-28 md:mt-40 text-white font-mono">
       <div class="card lg:card-side shadow-xl mb-10 mr-8 rounded bg-gradient-to-r from-primary to-secondary px-4 flex-1">
         <figure>
           <img
