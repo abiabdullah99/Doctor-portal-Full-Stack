@@ -1,0 +1,6 @@
+.footer-info{
+    background: url(../../../assets/images/footer-bg.png);
+    background-size: contain;
+    padding: 80px 0px;
+    background-position: bottom;
+}

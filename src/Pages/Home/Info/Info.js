@@ -7,7 +7,7 @@ const Info = () => {
     <div className="md:flex px-28 md:mt-40 text-white font-mono">
       <div class="card lg:card-side shadow-xl mb-10 mr-8 rounded bg-gradient-to-r from-primary to-secondary px-4 flex-1">
         <figure>
-          <img
+          <img className="md:pt-0 pt-2"
             src={clock}
             alt="Album"
           />
@@ -20,7 +20,7 @@ const Info = () => {
 
       <div class="card lg:card-side shadow-xl mb-10 mr-8 px-4 rounded bg-accent flex-1">
         <figure>
-          <img
+          <img className="md:pt-0 pt-2"
             src={marker}
             alt="Album"
           />
@@ -33,7 +33,7 @@ const Info = () => {
 
       <div class="card lg:card-side mb-10 mr-8 shadow-xl rounded bg-gradient-to-r from-primary to-secondary px-4 flex-1">
         <figure>
-          <img
+          <img className="md:pt-0 pt-2"
             src={phone}
             alt="Album"
           />
