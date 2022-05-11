@@ -63,7 +63,7 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <h1 className="btn btn-ghost normal-case text-2xl font-mono ml-10 md:ml-0">
+        <h1 className="btn btn-ghost normal-case text-2xl font-mono ml-10 md:ml-0 text-secondary">
           Doctor Portal
         </h1>
       </div>
